@@ -43,7 +43,7 @@ window.addEventListener("load", () => {
       }
    }
 
-
+   // ! Header 
    body.addEventListener("click", toggleSpoiler);
    function toggleSpoiler(e) {
       if (e.target.closest(".page-header")) {
@@ -101,7 +101,7 @@ new Swiper('.benefits__wrap-list', {
 });
 
 
-// ! Benefits 
+// ! News 
 new Swiper('.news__list-wrap', {
    // клавиатура
    keyboard: {
